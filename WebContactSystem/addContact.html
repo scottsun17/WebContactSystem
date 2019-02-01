@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Contact</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table align="center" width="400" border="1px">
+		<form action="/WebContactSystem/AddContactServlet" method="POST">
+			<tr>
+				<th colspan="2">Add Contact</th>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="firstname"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lastname"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" value="M">Male
+					<input type="radio" name="gender" value="F">Female
+				</td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td><input type="text" name="age"></td>
+			</tr>
+			<tr>
+				<td>Telephone Number</td>
+				<td><input type="text" name="tel"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" value="submit"></th>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
