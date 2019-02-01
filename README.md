@@ -82,12 +82,12 @@ now you are done and you can start testing
 
 ## What to be mindful about..
 1. database table field name to be consistant with your code.
-2. do not miss a space when generating html in the servlet
-    I made a mistake that missed a space here:
+2. do not miss a space when generating html in the servlet,
+    I made a mistake that missed a space here and took me so long to find out(crying face):
     ```
     html += "<form action=UpdateContactServlet?id=" + contact.getId() + "method=POST>";
     ```
-    right before method=POST, it need a space, otherwise, it will not submit to UpdateContactServlet
+    right before method=POST, it need a space, otherwise, it will not submit to UpdateContactServlet,
     correct coding:
     ```
     html += "<form action=UpdateContactServlet?id=" + contact.getId() + " method=POST>";
