@@ -47,7 +47,7 @@ create table Contact (
 );
 ```
 
-db.properties
+db.properties - save this file under /webapps/../WEB-INF/classes
 ```
 driver=com.mysql.cj.jdbc.Driver
 url=jdbc:mysql://localhost:3306/webcontactsystem?useSSL=true
