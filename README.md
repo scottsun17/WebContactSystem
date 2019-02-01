@@ -64,7 +64,7 @@ beanutils
 beanutils logging
 mysql connector
 
-My order of coding each files:
+My order of coding each file:
 1. Contact.java
 2. JDBCUtil.java
 3. BaseDao.java
