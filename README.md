@@ -1,5 +1,6 @@
 # WebContactSystem
 A simple demo of Web Contact System - my attempt to display data from local databases in dynamic webpage through Java servlet.
+See scottsun folder for codes
 
 ## System Design:
 ![alt text](https://user-images.githubusercontent.com/42085040/52098431-ed6d4d00-259c-11e9-9526-ebfd1c78a3c7.png)
