@@ -1,6 +1,6 @@
 # WebContactSystem
 A simple demo of Web Contact System - my attempt to display data from local databases in dynamic webpage through Java servlet.
-See scottsun folder for codes
+See scottsun folder for details
 
 ## System Design:
 ![alt text](https://user-images.githubusercontent.com/42085040/52098431-ed6d4d00-259c-11e9-9526-ebfd1c78a3c7.png)
@@ -60,10 +60,10 @@ password=123456
 ![alt text](https://user-images.githubusercontent.com/42085040/52098536-610f5a00-259d-11e9-9a69-2329bd6f35e8.png)
 
 ## Step 3: You can start Coding now
-You need to import the following libs:
-beanutils
-beanutils logging
-mysql connector
+You need to import the following libs:<br>
+beanutils<br>
+beanutils logging<br>
+mysql connector<br>
 
 My order of coding each file:
 1. Contact.java
