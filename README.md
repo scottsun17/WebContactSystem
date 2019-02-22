@@ -93,7 +93,7 @@ now you are done and you can start testing
     ```
     html += "<form action=UpdateContactServlet?id=" + contact.getId() + " method=POST>";
     ```
-    
+3. Everything above can be done in JSP or Spring framework. 
  
 
 
