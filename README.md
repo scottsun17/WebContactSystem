@@ -1,5 +1,5 @@
 # WebContactSystem
-A simple demo of Web Contact System - my attempt to display data from local databases in dynamic webpage through Java servlet.
+A simple demo of Web Contact System - my attempt to connect database in a dynamic webpage through Java servlet.
 See scottsun folder for details
 
 ## System Design:
@@ -72,7 +72,7 @@ My order of coding each file:
 4. ContactDao.java
 5. ContactDaoImplements.java
 6. addContact.html
-7. web.xml - MyEclipse 2014 generated it for me automatically, but you can write it yourself if you don't have one
+7. web.xml
 8. AddContactServlet.java
 9. ListContactServlet.java
 10. DeleteContactServlet.java
